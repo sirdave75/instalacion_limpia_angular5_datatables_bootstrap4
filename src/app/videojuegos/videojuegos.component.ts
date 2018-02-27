@@ -38,7 +38,7 @@ export class VideojuegosComponent implements  OnInit{
 
     ngOnInit():void{
        this.dtOptions = {
-        dom:"Btipr",
+        dom:"Bftipr",
        lengthMenu: [[10, 25, 50, -1], ["10", 25, 50, "Todas"]],
         buttons: [
                "pageLength",
@@ -55,7 +55,7 @@ export class VideojuegosComponent implements  OnInit{
             },
             url: '//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json'
         },
-
+        stateSave: true,
         columns : [
                {
                     title: 'ID',

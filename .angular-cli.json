@@ -21,18 +21,32 @@
       "styles": [
         "styles.css",
         "../node_modules/datatables.net-dt/css/jquery.dataTables.css",
-        "../node_modules/datatables.net-buttons-dt/css/buttons.dataTables.css"
+        "../node_modules/datatables.net-buttons-dt/css/buttons.dataTables.css",
+        "assets/bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "assets/bower_components/font-awesome/css/font-awesome.min.css",
+        "assets/bower_components/Ionicons/css/ionicons.min.css",
+        "assets/bower_components/jvectormap/jquery-jvectormap.css",
+        "assets/dist/css/AdminLTE.min.css",
+        "assets/dist/css/skins/_all-skins.min.css"
+
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.js",
+        "assets/bower_components/jquery/dist/jquery.min.js",
+        "assets/bower_components/bootstrap/dist/js/bootstrap.min.js",
+        "assets/bower_components/fastclick/lib/fastclick.js",
+        "assets/dist/js/adminlte.min.js",
+        "assets/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js",
+        "assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
+        "assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
+        "assets/bower_components/jquery-slimscroll/jquery.slimscroll.min.js",
+        "assets/bower_components/Chart.js/Chart.js",
+        "assets/dist/js/demo.js",
         "../node_modules/datatables.net/js/jquery.dataTables.js",
         "../node_modules/datatables.net-buttons/js/dataTables.buttons.js",
         "../node_modules/datatables.net-buttons/js/buttons.colVis.js",
         "../node_modules/datatables.net-buttons/js/buttons.flash.js",
         "../node_modules/datatables.net-buttons/js/buttons.html5.js",
-        "../node_modules/datatables.net-buttons/js/buttons.print.js",
-        "assets/bootstrap-4.0.0-alpha.6-dist/js/tether.min.js",
-        "assets/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"
+        "../node_modules/datatables.net-buttons/js/buttons.print.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
